@@ -17,11 +17,8 @@ while True:
         flags = cv2.CASCADE_SCALE_IMAGE
     )
     
-    for (x,y,w,h) in faces:
+    for (x,y,w,h) in faces:      # Creating the box aroud face
         cv2.rectangle(video_data, (x,y), (x+w,y+h), (0,0,0,),2)
-
-
-
 
     cv2.imshow("video_live",video_data)
     if cv2.waitKey(10) == ord("a"):

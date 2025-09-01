@@ -1,2 +1,2 @@
-# This project aims to provide Accurate Face detection using OpenCv
+# This project aims to provide Accurate Face detection using OpenCV
 
