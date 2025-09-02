@@ -23,4 +23,5 @@ while True:
     cv2.imshow("video_live",video_data)
     if cv2.waitKey(10) == ord("a"):
         break   
+    #The video feed only terminates when  'a' is pressed
 video_cap.release()
